@@ -1,5 +1,6 @@
 import express from "express"
 import task from "./tasks/task.js"
+import { v4 as uuidv4 } from "uuid";
 
 const app = express()
 
@@ -45,7 +46,7 @@ app.post('/task/create_task', (req, res) => {
 
     try {
         const newTask = {
-            id: Math.floor(Math.random()),
+            id: uuidv4(),
             title,
             description,
             date
