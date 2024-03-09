@@ -10,7 +10,7 @@ To get started with the project, follow these steps:
 
 2. Navigate to the project directory:
 
-3. Install dependencies:
+3. Install dependencies `npm i`:
 
 4. Start the server:
 
